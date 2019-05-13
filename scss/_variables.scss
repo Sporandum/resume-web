@@ -1,0 +1,38 @@
+// Couleurs
+$col1: #327ca3;
+$col2: #4ca5d0;
+$col3: #6ca338;
+$col4: #ffbc38;
+$col5: #c82c0c;
+
+
+
+$bgDark1: #141414; // Bg Main
+$bgDark2: #222; // Bg Titre Hover
+$bgDark3: #282828;
+$bgDark4: #323232;
+
+$bgWhite1: #fff;
+$bgWhite2: #f4f4f4;
+$bgWhite3: #e5e5e5;
+
+$txt1: #fff;
+$txt2: #878787;
+$txt3: #646464;
+
+$borderType1: 2px solid $txt3;
+$borderType2: 1px solid #333;
+
+$shadowStyle1: inset 0 0 2px $txt3;
+
+// Fonts
+// Lato
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+$font1: 'lato', sans-serif;
+
+// FontAwesome
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+
+// Responsive
