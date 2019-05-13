@@ -125,6 +125,12 @@ h4 {
   margin-bottom: 2px;
 }
 
+@media screen and (max-width: 500px) {
+  .profile {
+    margin-left: 0;
+  }
+}
+
 .profile-icon {
   width: 60px;
   height: 60px;
@@ -135,6 +141,12 @@ h4 {
   top: 0;
   left: -61px;
   background-color: #6ca338;
+}
+
+@media screen and (max-width: 500px) {
+  .profile-icon {
+    display: none;
+  }
 }
 
 .profile-header {
@@ -367,6 +379,12 @@ section {
   margin-bottom: 2px;
 }
 
+@media screen and (max-width: 500px) {
+  section {
+    margin-left: 0;
+  }
+}
+
 .section-icon {
   width: 60px;
   height: 60px;
@@ -376,6 +394,12 @@ section {
   position: absolute;
   top: 0;
   left: -61px;
+}
+
+@media screen and (max-width: 500px) {
+  .section-icon {
+    display: none;
+  }
 }
 
 .section-header {
