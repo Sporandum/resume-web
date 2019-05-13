@@ -689,12 +689,12 @@ section {
 
                 &::after {
                     top: 2%;
-                    left: 12%;
+                    left: 6rem;
                 }
 
                 div[class*=block-] {
                     width: 70%;
-                    margin-left: 19% !important;
+                    margin-left: 9rem !important;
 
                     &:nth-child(odd) {
 
@@ -711,6 +711,10 @@ section {
 
                     &:nth-child(even) {
                         margin-top: 1rem;
+
+                        &::after {
+                            left: -3.9rem;
+                        }
 
                     }
                 }

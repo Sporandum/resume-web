@@ -147,6 +147,8 @@ profile.init();
 
 /* ********************************************************************************* */
 
+//  animation barres bloc compétences
+
 let skillsAnim = {
     barElts: document.querySelectorAll('div[class*=skills-bar-]'),
     sectionElt: document.querySelector('.skills .section-main-js'),
@@ -198,3 +200,6 @@ let skillsAnim = {
 }
 
 skillsAnim.init();
+
+/* ************************************************************************************ */
+

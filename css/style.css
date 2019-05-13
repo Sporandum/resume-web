@@ -666,11 +666,11 @@ section {
 @media screen and (max-width: 950px) {
   .experiences .section-main-experiences::after {
     top: 2%;
-    left: 12%;
+    left: 6rem;
   }
   .experiences .section-main-experiences div[class*=block-] {
     width: 70%;
-    margin-left: 19% !important;
+    margin-left: 9rem !important;
   }
   .experiences .section-main-experiences div[class*=block-]:nth-child(odd)::before {
     left: -0.76rem;
@@ -682,6 +682,9 @@ section {
   }
   .experiences .section-main-experiences div[class*=block-]:nth-child(even) {
     margin-top: 1rem;
+  }
+  .experiences .section-main-experiences div[class*=block-]:nth-child(even)::after {
+    left: -3.9rem;
   }
 }
 
