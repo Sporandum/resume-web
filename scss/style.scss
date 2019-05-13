@@ -781,6 +781,10 @@ section {
 
                 .education-block-1 {
                     flex-direction: row !important;
+
+                    @media screen and (max-width: 425px) {
+                        flex-direction: column !important;
+                    }
                 }
 
                 .years {
@@ -900,6 +904,9 @@ section {
 // Centre d'intérêts / interest
 
 .interest {
+
+    display: none;
+    
     .section {
 
         &-icon {

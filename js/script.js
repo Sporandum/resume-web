@@ -178,18 +178,18 @@ let skillsAnim = {
     },
 
     anim: function () {
-            if (!isNaN(this.sectionElt.style.maxHeight)) {
-                this.close();
-            } else {
-                this.open();
-            }
+        if (!isNaN(this.sectionElt.style.maxHeight)) {
+            this.close();
+        } else {
+            this.open();
+        }
     },
 
-    init: function() {
+    init: function () {
         this.close();
         let obj = this;
         for (let i = 0; this.eventElts[i]; i++) {
-            this.eventElts[i].addEventListener('click', function() {
+            this.eventElts[i].addEventListener('click', function () {
                 obj.anim();
             });
         }

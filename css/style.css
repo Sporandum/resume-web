@@ -735,6 +735,15 @@ section {
           flex-direction: row !important;
 }
 
+@media screen and (max-width: 425px) {
+  .education .section-main-education .education-block-1 {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+
 .education .section-main-education .years {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -846,6 +855,10 @@ section {
 .education .section-main-education p {
   font-size: 0.95em;
   margin: 0.5em 0.75em 0.75em 0;
+}
+
+.interest {
+  display: none;
 }
 
 .interest .section-icon {
